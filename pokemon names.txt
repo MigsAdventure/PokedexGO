@@ -1,0 +1,2127 @@
+"Number" : "001",	
+"Name" : "Bulbasaur",	 	
+"Hit-points" : "90",
+"Attack" : "126",
+"Defense" : "126",
+"Max-cp" : "1071",
+"Catch-rate" : "16%",
+"Flee-rate" : "10%",
+"Egg" : "2km",	
+"Evolve" : "25 Candy"
+
+
+"Number" : "002",	
+"Name" : "Ivysaur",	 	
+"Hit-points" : 	"120",
+"Attack" : 	"156",
+"Defense" :	"158",
+"Max-cp" :	"1632",
+"Catch-rate" :	"8%",
+"Flee-rate" :	"7%",
+"Egg" : "Not in Eggs",
+"Evolve" : "100 Candy"
+
+"Number" : "003",	
+"Name" : "Venusaur", 	
+"Hit-Points" : 	"160",
+"Attack" : 	"198",
+"Defense" :	"200",
+"Max-CP" :	"2580",
+"Catch-Rate" :	"4%",
+"Flee-Rate" :	"5%",
+"Egg" : "Not in Eggs",
+"Evolve" : "None"		
+
+"Number" : "004",	
+"Name" : "Charmander",		
+"Hit-Points" : 	"78",
+"Attack" : 	"128",
+"Defense" :	"108",
+"Max-CP" :	"955",
+"Catch-Rate" :	"16%",
+"Flee-Rate" :	"10%",
+"Egg" : "2km",
+"Evolve" : "25 Candy" 	
+
+
+"Number" : "005",	
+"Name" : "Charmeleon"		
+"Hit-Points" : 	"116"
+"Attack" : 	"160"
+"Defense" :	"140"
+"Max-CP" :	"1557"
+"Catch-Rate" :	"8%",
+"Flee-Rate" :	"7%",
+"Egg" : "Not in Eggs",
+"Evolve" : "100 Candy" 	
+
+"Number" : "006",	
+"Name" : "Charizard",	 	
+"Hit-Points" : 	"156",
+"Attack" : 	"212",
+"Defense" :	"182",
+"Max-CP" :	"2602",
+"Catch-Rate" :	"4%",
+"Flee-Rate" :	"5%",
+"Egg" : "Not in Eggs",
+"Evolve" : "None"	
+
+"Number" : "007",	
+"Name" : "Squirtle",		
+"Hit-Points" : 	"88",
+"Attack" : 	"112",
+"Defense" :	"142",
+"Max-CP" :	"1008",
+"Catch-Rate" :	"16%",
+"Flee-Rate" :	"10%",
+"Egg" : "2km",
+"Evolve" : "25 Candy" 	
+
+"Number" : "008",
+"Name" : "Wartortle",		
+"Hit-Points" : 	"118",
+"Attack" : 	"144",
+"Defense" :	"176",
+"Max-CP" :	"1582",
+"Catch-Rate" :	"8%",
+"Flee-Rate" :	"7%",
+"Egg" : "Not in Eggs",
+"Evolve" : "100 Candy" 	
+
+"Number" : "009",	
+"Name" : "Blastoise",		
+"Hit-Points" : 	"158",
+"Attack" : 	"186",
+"Defense" :	"222",
+"Max-CP" :	"2542",
+"Catch-Rate" :	"4%",
+"Flee-Rate" :	"5%",
+"Egg" : "Not in Eggs",
+"Evolve" : "None"	
+
+"Number" : "010",	
+"Name" : "Caterpie",		
+"Hit-Points" : 	"90",
+"Attack" : 	"62",
+"Defense" :	"66",
+"Max-CP" :	"443",
+"Catch-Rate" :	"40%",
+"Flee-Rate" :	"20%",
+"Egg" : "2km",
+"Evolve" : "12 Candy"	
+
+"Number" : 011	
+"Name" : Metapod		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	56
+"Defense" :	86
+"Max-CP" :	477
+"Catch-Rate" :	20%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Caterpie Candy	"Egg" : "Not in Eggs",	
+
+"Number" : 012	
+"Name" : Butterfree	 	
+"Hit-Points" : 	120
+"Attack" : 	144
+"Defense" :	144
+"Max-CP" :	1454
+"Catch-Rate" :	10%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",
+
+"Number" : 013	
+"Name" : Weedle	 	
+"Hit-Points" : 	80
+"Attack" : 	68
+"Defense" :	64
+"Max-CP" :	449
+"Catch-Rate" :	40%
+"Flee-Rate" :	20%
+12 Weedle Candy	"Egg" : "2km",	
+
+"Number" : 014	
+"Name" : Kakuna	 	
+"Hit-Points" : 	90
+"Attack" : 	62
+"Defense" :	82
+"Max-CP" :	485
+"Catch-Rate" :	20%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Weedle Candy	"Egg" : "Not in Eggs",	
+
+
+"Number" : 015	
+"Name" : Beedrill	 	
+"Hit-Points" : 	130
+"Attack" : 	144
+"Defense" :	130
+"Max-CP" :	1439
+"Catch-Rate" :	10%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+
+"Number" : 016	
+"Name" : Pidgey	 	
+"Hit-Points" : 	80
+"Attack" : 	94
+"Defense" :	90
+"Max-CP" :	679
+"Catch-Rate" :	40%
+"Flee-Rate" :	20%
+12 Pidgey Candy	"Egg" : "2km",
+
+"Number" : 017	
+"Name" : Pidgeotto	 	
+"Hit-Points" : 	126
+"Attack" : 	126
+"Defense" :	122
+"Max-CP" :	1223
+"Catch-Rate" :	20%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Pidgey Candy	"Egg" : "Not in Eggs",	
+
+"Number" : 018	
+"Name" : Pidgeot	 	
+"Hit-Points" : 	166
+"Attack" : 	170
+"Defense" :	166
+"Max-CP" :	2091
+"Catch-Rate" :	10%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 019	
+"Name" : Rattata		
+"Hit-Points" : 	60
+"Attack" : 	92
+"Defense" :	86
+"Max-CP" :	581
+"Catch-Rate" :	40%
+"Flee-Rate" :	20%
+"Evolve" : "25 Candy" Rattata Candy	"Egg" : "2km",
+
+"Number" : 020	
+"Name" : Raticate		
+"Hit-Points" : 	110
+"Attack" : 	146
+"Defense" :	150
+"Max-CP" :	1444
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 021	
+"Name" : Spearow	 	
+"Hit-Points" : 	80
+"Attack" : 	102
+"Defense" :	78
+"Max-CP" :	686
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Spearow Candy	"Egg" : "2km",	
+
+"Number" : 022	
+"Name" : Fearow	 	
+"Hit-Points" : 	130
+"Attack" : 	168
+"Defense" :	146
+"Max-CP" :	1746
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 023	
+"Name" : Ekans		
+"Hit-Points" : 	70
+"Attack" : 	112
+"Defense" :	112
+"Max-CP" :	824
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Ekans Candy	"Egg" : "5km",
+
+"Number" : 024	
+"Name" : Arbok		
+"Hit-Points" : 	120
+"Attack" : 	166
+"Defense" :	166
+"Max-CP" :	1767
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 025	
+"Name" : Pikachu		
+"Hit-Points" : 	70
+"Attack" : 	124
+"Defense" :	108
+"Max-CP" :	887
+"Catch-Rate" :	16%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Pikachu Candy	"Egg" : "2km",	
+
+"Number" : 026	
+"Name" : Raichu		
+"Hit-Points" : 	120
+"Attack" : 	200
+"Defense" :	154
+"Max-CP" :	2028
+"Catch-Rate" :	8%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 027	
+"Name" : Sandshrew		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	90
+"Defense" :	114
+"Max-CP" :	798
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Sandshrew Candy	"Egg" : "5km",	
+
+"Number" : 028	
+"Name" : Sandslash		
+"Hit-Points" : 	150
+"Attack" : 	150
+"Defense" :	172
+"Max-CP" :	1810
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	
+
+"Number" : 029	
+"Name" : Nidoran♀		
+"Hit-Points" : 	110
+"Attack" : 	"Evolve" : "100 Candy"
+"Defense" :	104
+"Max-CP" :	876
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "25 Candy" Nidoran♀ Candy	"Egg" : "5km",	Poison Sting
+Bite	Poison Fang
+Sludge Bomb
+Body Slam
+"Number" : 030	
+
+"Name" : Nidorina		
+"Hit-Points" : 	140
+"Attack" : 	132
+"Defense" :	136
+"Max-CP" :	1404
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Nidoran♀ Candy	"Egg" : "Not in Eggs",	Poison Sting
+Bite	Poison Fang
+Sludge Bomb
+Dig
+"Number" : 031	
+
+"Name" : Nidoqueen	 	
+"Hit-Points" : 	180
+"Attack" : 	184
+"Defense" :	190
+"Max-CP" :	2485
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Poison Jab
+Bite	Stone Edge
+Sludge Wave
+Earthquake
+"Number" : 032	
+
+"Name" : Nidoran♂		
+"Hit-Points" : 	92
+"Attack" : 	110
+"Defense" :	94
+"Max-CP" :	843
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "25 Candy" Nidoran♂ Candy	"Egg" : "5km",	Poison Sting
+Peck	Horn "Attack" : 
+Body Slam
+Sludge Bomb
+"Number" : 033	
+
+"Name" : Nidorino		
+"Hit-Points" : 	122
+"Attack" : 	142
+"Defense" :	128
+"Max-CP" :	"1372"
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Nidoran♂ Candy	"Egg" : "Not in Eggs",	Poison Jab
+Bite	Horn "Attack" : 
+Dig
+Sludge Bomb
+"Number" : 034	
+
+"Name" : Nidoking	 	
+"Hit-Points" : 	162
+"Attack" : 	204
+"Defense" :	170
+"Max-CP" :	2475
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Poison Jab
+Fury Cutter	Megahorn
+Earthquake
+Sludge Wave
+"Number" : 035	
+
+"Name" : Clefairy		
+"Hit-Points" : 	140
+"Attack" : 	116
+"Defense" :	124
+"Max-CP" :	1200
+"Catch-Rate" :	24%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Clefairy Candy	"Egg" : "2km",	Zen Headbutt
+Pound	Body Slam
+Disarming Voice
+Moonblast
+"Number" : 036	
+
+"Name" : Clefable		
+"Hit-Points" : 	190
+"Attack" : 	178
+"Defense" :	178
+"Max-CP" :	2397
+"Catch-Rate" :	8%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Zen Headbutt
+Pound	Psychic
+Dazzling Gleam
+Moonblast
+"Number" : 037	
+
+"Name" : Vulpix		
+"Hit-Points" : 	76
+"Attack" : 	106
+"Defense" :	118
+"Max-CP" :	831
+"Catch-Rate" :	24%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Vulpix Candy	"Egg" : "5km",	Quick "Attack" : 
+Ember	Flamethrower
+Body Slam
+Flame Charge
+"Number" : 038	
+
+"Name" : Ninetales		
+"Hit-Points" : 	146
+"Attack" : 	176
+"Defense" :	194
+"Max-CP" :	2188
+"Catch-Rate" :	8%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Feint "Attack" : 
+Ember	Heat Wave
+Fire Blast
+Flamethrower
+"Number" : 039	
+
+"Name" : Jigglypuff	 	
+"Hit-Points" : 	230
+"Attack" : 	98
+"Defense" :	54
+"Max-CP" :	917
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Jigglypuff Candy	"Egg" : "2km",	Feint "Attack" : 
+Pound	Disarming Voice
+Body Slam
+Play Rough
+"Number" : 040	
+
+"Name" : Wigglytuff	 	
+"Hit-Points" : 	280
+"Attack" : 	168
+"Defense" :	108
+"Max-CP" :	2177
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Feint "Attack" : 
+Pound	Dazzling Gleam
+Hyper Beam
+Play Rough
+"Number" : 041	
+
+"Name" : Zubat	 	
+"Hit-Points" : 	80
+"Attack" : 	88
+"Defense" :	90
+"Max-CP" :	642
+"Catch-Rate" :	40%
+"Flee-Rate" :	20%
+"Evolve" : "50 Candy" Zubat Candy	"Egg" : "2km",	Bite
+Quick "Attack" : 	Sludge Bomb
+Poison Fang
+Air Cutter
+"Number" : 042	
+
+"Name" : Golbat	 	
+"Hit-Points" : 	150
+"Attack" : 	164
+"Defense" :	164
+"Max-CP" :	1921
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Bite
+Wing "Attack" : 	Ominous Wind
+Poison Fang
+Air Cutter
+"Number" : 043	
+
+"Name" : Oddish	 	
+"Hit-Points" : 	90
+"Attack" : 	134
+"Defense" :	130
+"Max-CP" :	1148
+"Catch-Rate" :	48%
+"Flee-Rate" :	15%
+"Evolve" : "25 Candy" Oddish Candy	"Egg" : "5km",	Razor Leaf
+Acid	Moonblast
+Seed Bomb
+Sludge Bomb
+"Number" : 044	
+
+"Name" : Gloom	 	
+"Hit-Points" : 	120
+"Attack" : 	162
+"Defense" :	158
+"Max-CP" :	1689
+"Catch-Rate" :	24%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Oddish Candy	"Egg" : "Not in Eggs",	Razor Leaf
+Acid	Moonblast
+Petal Blizzard
+Sludge Bomb
+"Number" : 045	
+
+"Name" : Vileplume	 	
+"Hit-Points" : 	150
+"Attack" : 	202
+"Defense" :	190
+"Max-CP" :	2492
+"Catch-Rate" :	12%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Razor Leaf
+Acid	Moonblast
+Petal Blizzard
+Solar Beam
+"Number" : 046	
+
+"Name" : Paras	 	
+"Hit-Points" : 	70
+"Attack" : 	122
+"Defense" :	120
+"Max-CP" :	916
+"Catch-Rate" :	32%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Paras Candy	"Egg" : "5km",	Bug Bite
+Scratch	Seed Bomb
+X-Scissor
+Cross Poison
+"Number" : 047	
+
+"Name" : Parasect	 	
+"Hit-Points" : 	120
+"Attack" : 	162
+"Defense" :	170
+"Max-CP" :	1747
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Bug Bite
+Fury Cutter	Solar Beam
+X-Scissor
+Cross Poison
+"Number" : 048	
+
+"Name" : Venonat	 	
+"Hit-Points" : 	120
+"Attack" : 	108
+"Defense" :	118
+"Max-CP" :	1029
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Venonat Candy	"Egg" : "5km",	Confusion
+Bug Bite	Signal Beam
+Poison Fang
+Psybeam
+"Number" : 049	
+
+Venomoth	 	
+"Hit-Points" : 	140
+"Attack" : 	172
+"Defense" :	154
+"Max-CP" :	1890
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Confusion
+Bug Bite	Bug Buzz
+Poison Fang
+Psychic
+"Number" : 050	
+
+Diglett		
+"Hit-Points" : 	20
+"Attack" : 	108
+"Defense" :	86
+"Max-CP" :	456
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Diglett Candy	"Egg" : "5km",	Scratch
+Mud Shot	Rock Tomb
+Dig
+Mud Bomb
+"Number" : 051	
+
+Dugtrio		
+"Hit-Points" : 	70
+"Attack" : 	148
+"Defense" :	140
+"Max-CP" :	1168
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Sucker Punch
+Mud Shot	Stone Edge
+Earthquake
+Mud Bomb
+"Number" : 052	
+
+Meowth		
+"Hit-Points" : 	80
+"Attack" : 	104
+"Defense" :	94
+"Max-CP" :	756
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Meowth Candy	"Egg" : "5km",	Scratch
+Bite	Dark Pulse
+Night Slash
+Body Slam
+"Number" : 053	
+
+Persian		
+"Hit-Points" : 	130
+"Attack" : 	156
+"Defense" :	146
+"Max-CP" :	1631
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Scratch
+Feint "Attack" : 	Play Rough
+Power Gem
+Night Slash
+"Number" : 054	
+
+Psyduck		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	132
+"Defense" :	112
+"Max-CP" :	1109
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Psyduck Candy	"Egg" : "5km",	Zen Headbutt
+Water Gun	Aqua Tail
+Cross Chop
+Psybeam
+"Number" : 055	
+
+Golduck		
+"Hit-Points" : 	160
+"Attack" : 	194
+"Defense" :	176
+"Max-CP" :	2386
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Confusion
+Water Gun	Hydro Pump
+Ice Beam
+Psychic
+"Number" : 056	
+
+Mankey		
+"Hit-Points" : 	80
+"Attack" : 	112
+"Defense" :	96
+"Max-CP" :	878
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Mankey Candy	"Egg" : "5km",	Karate Chop
+Scratch	Brick Break
+Cross Chop
+Low Sweep
+"Number" : 057	
+
+Primeape		
+"Hit-Points" : 	130
+"Attack" : 	178
+"Defense" :	150
+"Max-CP" :	1864
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Karate Chop
+Low Kick	Night Slash
+Cross Chop
+Low Sweep
+"Number" : 058	
+
+Growlithe		
+"Hit-Points" : 	110
+"Attack" : 	156
+"Defense" :	110
+"Max-CP" :	1335
+"Catch-Rate" :	24%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Growlithe Candy	"Egg" : "5km",	Ember
+Bite	Flame Wheel
+Body Slam
+Flamethrower
+"Number" : 059	
+
+Arcanine		
+"Hit-Points" : 	180
+"Attack" : 	230
+"Defense" :	180
+"Max-CP" :	2983
+"Catch-Rate" :	8%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Fire Fang
+Bite	Fire Blast
+Bulldoze
+Flamethrower
+"Number" : 060	
+
+Poliwag		
+"Hit-Points" : 	80
+"Attack" : 	108
+"Defense" :	98
+"Max-CP" :	795
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "25 Candy" Poliwag Candy	"Egg" : "5km",	Bubble
+Mud Shot	Body Slam
+Bubble Beam
+Mud Bomb
+"Number" : 061	
+
+Poliwhirl		
+"Hit-Points" : 	130
+"Attack" : 	132
+"Defense" :	132
+"Max-CP" :	1340
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Poliwag Candy	"Egg" : "Not in Eggs",	Bubble
+Mud Shot	Scald
+Bubble Beam
+Mud Bomb
+"Number" : 062	
+
+Poliwrath	 	
+"Hit-Points" : 	180
+"Attack" : 	180
+"Defense" :	202
+"Max-CP" :	2505
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Bubble
+Mud Shot	Ice Punch
+Hydro Pump
+Submission
+"Number" : 063	
+
+Abra		
+"Hit-Points" : 	"Evolve" : "50 Candy"
+"Attack" : 	110
+"Defense" :	76
+"Max-CP" :	600
+"Catch-Rate" :	40%
+"Flee-Rate" :	99%
+"Evolve" : "25 Candy" Abra Candy	"Egg" : "5km",	Zen Headbutt	Shadow Ball
+Signal Beam
+Psyshock
+"Number" : 064	
+
+Kadabra		
+"Hit-Points" : 	80
+"Attack" : 	150
+"Defense" :	112
+"Max-CP" :	1131
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Abra Candy	"Egg" : "Not in Eggs",	Confusion
+Psycho Cut	Shadow Ball
+Dazzling Gleam
+Psybeam
+"Number" : 065	
+
+Alakazam		
+"Hit-Points" : 	110
+"Attack" : 	186
+"Defense" :	152
+"Max-CP" :	1813
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Confusion
+Psycho Cut	Shadow Ball
+Dazzling Gleam
+Psychic
+"Number" : 066	
+
+Machop		
+"Hit-Points" : 	140
+"Attack" : 	118
+"Defense" :	96
+"Max-CP" :	1089
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "25 Candy" Machop Candy	"Egg" : "5km",	Low Kick
+Karate Chop	Brick Break
+Cross Chop
+Low Sweep
+"Number" : 067	
+
+Machoke		
+"Hit-Points" : 	160
+"Attack" : 	154
+"Defense" :	144
+"Max-CP" :	1760
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Machop Candy	"Egg" : "Not in Eggs",	Low Kick
+Karate Chop	Brick Break
+Cross Chop
+Submission
+"Number" : 068	
+,
+Machamp		
+,Hit-Points" : 	180
+",Attack" : 	"198",
+"Defense" :	180
+"Max-CP" :	2594
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Bullet Punch
+Karate Chop	Stone Edge
+Cross Chop
+Submission
+"Number" : 069	
+
+Bellsprout	 	
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	158
+"Defense" :	78
+"Max-CP" :	1117
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "25 Candy" Bellsprout Candy	"Egg" : "5km",	Acid
+Vine Whip	Sludge Bomb
+Power Whip
+Wrap
+"Number" : 070	
+
+Weepinbell	 	
+"Hit-Points" : 	130
+"Attack" : 	190
+"Defense" :	110
+"Max-CP" :	1723
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Bellsprout Candy	"Egg" : "Not in Eggs",	Acid
+Razor Leaf	Sludge Bomb
+Power Whip
+Seed Bomb
+"Number" : 071	
+
+Victreebel	 	
+"Hit-Points" : 	160
+"Attack" : 	222
+"Defense" :	152
+"Max-CP" :	2530
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Acid
+Razor Leaf	Sludge Bomb
+Leaf Blade
+Solar Beam
+"Number" : 072	
+
+Tentacool	 	
+"Hit-Points" : 	80
+"Attack" : 	106
+"Defense" :	136
+"Max-CP" :	905
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Tentacool Candy	"Egg" : "5km",	Bubble
+Poison Sting	Bubble Beam
+Water Pulse
+Wrap
+"Number" : 073	
+
+Tentacruel	 	
+"Hit-Points" : 	160
+"Attack" : 	170
+"Defense" :	196
+"Max-CP" :	2220
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Acid
+Poison Jab	Blizzard
+Hydro Pump
+Sludge Wave
+"Number" : 074	
+
+Geodude	 	
+"Hit-Points" : 	80
+"Attack" : 	106
+"Defense" :	118
+"Max-CP" :	849
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "25 Candy" Geodude Candy	"Egg" : "2km",	Rock Throw
+Tackle	Rock Slide
+Dig
+Rock Tomb
+"Number" : 075	
+
+Graveler	 	
+"Hit-Points" : 	110
+"Attack" : 	142
+"Defense" :	156
+"Max-CP" :	1433
+"Catch-Rate" :	20%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Geodude Candy	"Egg" : "Not in Eggs",	Rock Throw
+Mud Shot	Rock Slide
+Dig
+Stone Edge
+"Number" : 076	
+
+Golem	 	
+"H,it-Points" : 	160
+"At,ack" : 	176
+"Def,ense" :	198
+,"Max-CP" :	2303
+"Catch-Rate" :	10%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Rock Throw
+Mud Shot	Ancient Power
+Earthquake
+Stone Edge
+"Number" : 077	
+
+Ponyta		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	168
+"Defense" :	138
+"Max-CP" :	1516
+"Catch-Rate" :	32%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Ponyta Candy	"Egg" : "5km",	Tackle
+Ember	Flame Wheel
+Fire Blast
+Flame Charge
+"Number" : 078	
+
+Rapidash		
+"Hit-Points" : 	130
+"Attack" : 	200
+"Defense" :	170
+"Max-CP" :	2199
+"Catch-Rate" :	12%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Low Kick
+Ember	Heat Wave
+Fire Blast
+Drill Run
+"Number" : 079	
+
+Slowpoke	 	
+"Hit-Points" : 	180
+"Attack" : 	110
+"Defense" :	110
+"Max-CP" :	1218
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Slowpoke Candy	"Egg" : "5km",	Water Gun
+Confusion	Psychic
+Water Pulse
+Psyshock
+"Number" : 080	
+
+Slowbro	 	
+"Hit-Points" : 	190
+"Attack" : 	184
+"Defense" :	198
+"Max-CP" :	2597
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Water Gun
+Confusion	Psychic
+Water Pulse
+Ice Beam
+"Number" : 081	
+
+Magnemite	 	
+"Hit-Points" : 	"Evolve" : "50 Candy"
+"Attack" : 	128
+"Defense" :	"138"
+"Max-CP" :	890
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Magnemite Candy	"Egg" : "5km",	Spark
+Thunder Shock	Magnet Bomb
+Discharge
+Thunderbolt
+"Number" : 082	
+
+Magneton	 	
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	186
+"Defense" :	180
+"Max-CP" :	1879
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Spark
+Thunder Shock	Magnet Bomb
+Discharge
+Flash Cannon
+"Number" : 083	
+
+Farfetch'd
+Only catchable in Asia	 	
+"Hit-Points" : 	104
+"Attack" : 	138
+"Defense" :	132
+"Max-CP" :	1263
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Fury Cutter
+Cut	Air Cutter
+Aerial Ace
+Leaf Blade
+"Number" : 084	
+
+Doduo	 	
+"Hit-Points" : 	70
+"Attack" : 	126
+"Defense" :	96
+"Max-CP" :	855
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Doduo Candy	"Egg" : "5km",	Peck
+Quick "Attack" : 	Swift
+Aerial Ace
+Drill Peck
+"Number" : 085	
+
+Dodrio	 	
+"Hit-Points" : 	120
+"Attack" : 	182
+"Defense" :	150
+"Max-CP" :	1836
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Steel Wing
+Feint "Attack" : 	Drill Peck
+Aerial Ace
+Air Cutter
+"Number" : 086	
+
+Seel		
+"Hit-Points" : 	130
+"Attack" : 	104
+"Defense" :	138
+"Max-CP" :	1107
+"Catch-Rate" :	40%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Seel Candy	"Egg" : "5km",	Water Gun
+Ice Shard	Aqua Jet
+Icy Wind
+Aqua Tail
+"Number" : 087	
+
+Dewgong	 	
+"Hit-Points" : 	180
+"Attack" : 	156
+"Defense" :	192
+"Max-CP" :	2145
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Frost Breath
+Ice Shard	Aqua Jet
+Icy Wind
+Blizzard
+"Number" : 088	
+
+Grimer		
+"Hit-Points" : 	160
+"Attack" : 	124
+"Defense" :	110
+"Max-CP" :	1284
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Grimer Candy	"Egg" : "5km",	Mud Slap
+Acid	Sludge
+Sludge Bomb
+Mud Bomb
+"Number" : 089	
+
+Muk		
+"Hit-Points" : 	210
+"Attack" : 	180
+"Defense" :	188
+"Max-CP" :	2602
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Poison Jab
+Acid	Sludge Wave
+Sludge Bomb
+Dark Pulse
+"Number" : 090	
+
+Shellder		
+"Hit-Points" : 	60
+"Attack" : 	120
+"Defense" :	112
+"Max-CP" :	822
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Shellder Candy	"Egg" : "5km",	Ice Shard
+Tackle	Icy Wind
+Water Pulse
+Bubble Beam
+"Number" : 091	
+
+Cloyster	 	
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	196
+"Defense" :	196
+"Max-CP" :	2052
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Ice Shard
+Frost Breath	Icy Wind
+Blizzard
+Hydro Pump
+"Number" : 092	
+
+Gastly	 	
+"Hit-Points" : 	60
+"Attack" : 	136
+"Defense" :	82
+"Max-CP" :	804
+"Catch-Rate" :	32%
+"Flee-Rate" :	10%
+"Evolve" : "25 Candy" Gastly Candy	"Egg" : "5km",	Lick
+Sucker Punch	Dark Pulse
+Sludge Bomb
+Ominous Wind
+"Number" : 093	
+
+Haunter	 	
+"Hit-Points" : 	90
+"Attack" : 	172
+"Defense" :	118
+"Max-CP" :	1380
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+"Evolve" : "100 Candy" Gastly Candy	"Egg" : "Not in Eggs",	Lick
+Shadow Claw	Dark Pulse
+Sludge Bomb
+Shadow Ball
+"Number" : 094	
+
+Gengar	 	
+"Hit-Points" : 	120
+"Attack" : 	204
+"Defense" :	156
+"Max-CP" :	2078
+"Catch-Rate" :	8%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Shadow Claw
+Sucker Punch	Dark Pulse
+Sludge Wave
+Shadow Ball
+"Number" : 095	
+
+Onix	 	
+"Hit-Points" : 	70
+"Attack" : 	90
+"Defense" :	186
+"Max-CP" :	857
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Rock Throw
+Tackle	Rock Slide
+Stone Edge
+Iron Head
+"Number" : 096	
+
+Drowzee		
+"Hit-Points" : 	120
+"Attack" : 	104
+"Defense" :	140
+"Max-CP" :	1075
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Drowzee Candy	"Egg" : "5km",	Pound
+Confusion	Psychic
+Psyshock
+Psybeam
+"Number" : 097	
+
+Hypno		
+"Hit-Points" : 	170
+"Attack" : 	162
+"Defense" :	196
+"Max-CP" :	2184
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Zen Headbutt
+Confusion	Psychic
+Psyshock
+Shadow Ball
+"Number" : 098	
+
+Krabby		
+"Hit-Points" : 	60
+"Attack" : 	116
+"Defense" :	110
+"Max-CP" :	792
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Krabby Candy	"Egg" : "5km",	Bubble
+Mud Shot	Vice Grip
+Water Pulse
+Bubble Beam
+"Number" : 099	
+
+Kingler		
+"Hit-Points" : 	110
+"Attack" : 	178
+"Defense" :	168
+"Max-CP" :	1823
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Metal Claw
+Mud Shot	Vice Grip
+Water Pulse
+X-Scissor
+"Number" : "Evolve" : "100 Candy"	
+
+Voltorb		
+"Hit-Points" : 	80
+"Attack" : 	102
+"Defense" :	124
+"Max-CP" :	839
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Voltorb Candy	"Egg" : "5km",	Tackle
+Spark	Thunderbolt
+Discharge
+Signal Beam
+"Number" : 101	
+
+Electrode		
+"Hit-Points" : 	120
+"Attack" : 	150
+"Defense" :	174
+"Max-CP" :	1646
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Tackle
+Spark	Thunderbolt
+Discharge
+Hyper Beam
+"Number" : 102	
+
+Exeggcute	 	
+"Hit-Points" : 	120
+"Attack" : 	110
+"Defense" :	132
+"Max-CP" :	1099
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Exeggcute Candy	"Egg" : "5km",	Confusion	Psychic
+Seed Bomb
+Ancient Power
+"Number" : 103	
+
+Exeggutor	 	
+"Hit-Points" : 	190
+"Attack" : 	232
+"Defense" :	164
+"Max-CP" :	2955
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Confusion
+Zen Headbutt	Psychic
+Seed Bomb
+Solar Beam
+"Number" : 104	
+
+Cubone		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	102
+"Defense" :	150
+"Max-CP" :	1006
+"Catch-Rate" :	32%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Cubone Candy	"Egg" : "5km",	Rock Smash
+Mud Slap	Bone Club
+Dig
+Bulldoze
+"Number" : 105	
+
+Marowak		
+"Hit-Points" : 	120
+"Attack" : 	140
+"Defense" :	202
+"Max-CP" :	1656
+"Catch-Rate" :	12%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Rock Smash
+Mud Slap	Bone Club
+Dig
+Earthquake
+"Number" : 106	
+
+Hitmonlee		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	148
+"Defense" :	172
+"Max-CP" :	1492
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Low Kick
+Rock Smash	Low Sweep
+Stone Edge
+Stomp
+"Number" : 107	
+
+Hitmonchan		
+"Hit-Points" : 	"Evolve" : "100 Candy"
+"Attack" : 	138
+"Defense" :	204
+"Max-CP" :	1516
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Bullet Punch
+Rock Smash	Fire Punch
+Ice Punch
+Thunder Punch
+Brick Break
+"Number" : 108	
+
+Lickitung		
+"Hit-Points" : 	180
+"Attack" : 	126
+"Defense" :	160
+"Max-CP" :	1626
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Lick
+Zen Headbutt	Hyper Beam
+Stomp
+Power Whip
+"Number" : 109	
+
+Koffing		
+"Hit-Points" : 	80
+"Attack" : 	136
+"Defense" :	142
+"Max-CP" :	1151
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Egg" : "5km",	Tackle
+"Evolve" : "50 Candy" 	
+
+Acid	Dark Pulse
+Sludge
+Sludge Bomb
+"Number" : 110	
+
+Weezing		
+"Hit-Points" : 	130
+"Attack" : 	190
+"Defense" :	198
+"Max-CP" :	2250
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Tackle
+Acid	Dark Pulse
+Shadow Ball
+Sludge Bomb
+"Number" : 111	
+
+Rhyhorn	 	
+"Hit-Points" : 	160
+"Attack" : 	110
+"Defense" :	116
+"Max-CP" :	1182
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Rhyhorn Candy	"Egg" : "5km",	Rock Smash
+Mud Slap	Bulldoze
+Stomp
+Horn "Attack" : 
+"Number" : 112	
+
+Rhydon	 	
+"Hit-Points" : 	210
+"Attack" : 	116
+"Defense" :	160
+"Max-CP" :	2243
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Rock Smash
+Mud Slap	Earthquake
+Stone Edge
+Megahorn
+"Number" : 113	
+
+Chansey		
+"Hit-Points" : 	500
+"Attack" : 	40
+"Defense" :	60
+"Max-CP" :	675
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Pound
+Zen Headbutt	Dazzling Gleam
+Psybeam
+Psychic
+"Number" : 114	
+
+Tangela		
+"Hit-Points" : 	130
+"Attack" : 	164
+"Defense" :	152
+"Max-CP" :	1739
+"Catch-Rate" :	32%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Vine Whip	Sludge Bomb
+Solar Beam
+Power Whip
+"Number" : 115	
+
+Kangaskhan		
+"Hit-Points" : 	210
+"Attack" : 	142
+"Defense" :	178
+"Max-CP" :	2043
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Low Kick
+Mud Slap	Earthquake
+Brick Break
+Stomp
+"Number" : 116	
+
+Horsea		
+"Hit-Points" : 	60
+"Attack" : 	122
+"Defense" :	"Evolve" : "100 Candy"
+"Max-CP" :	794
+"Catch-Rate" :	40%
+"Flee-Rate" :	10%
+"Evolve" : "50 Candy" Horsea Candy	"Egg" : "5km",	Water Gun
+Bubble	Bubble Beam
+Dragon Pulse
+Flash Cannon
+"Number" : 117	
+
+Seadra		
+"Hit-Points" : 	110
+"Attack" : 	176
+"Defense" :	150
+"Max-CP" :	1713
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Water Gun
+Dragon Breath	Hydro Pump
+Dragon Pulse
+Blizzard
+"Number" : 118	
+
+Goldeen		
+"Hit-Points" : 	90
+"Attack" : 	112
+"Defense" :	126
+"Max-CP" :	965
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Goldeen Candy	"Egg" : "5km",	Mud Shot
+Peck	Aqua Tail
+Horn "Attack" : 
+Water Pulse
+"Number" : 119	
+
+Seaking		
+"Hit-Points" : 	160
+"Attack" : 	172
+"Defense" :	160
+"Max-CP" :	2043
+"Catch-Rate" :	16%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Poison Jab
+Peck	Drill Run
+Megahorn
+Icy Wind
+"Number" : 120	
+
+Staryu		
+"Hit-Points" : 	60
+"Attack" : 	130
+"Defense" :	128
+"Max-CP" :	937
+"Catch-Rate" :	40%
+"Flee-Rate" :	15%
+"Evolve" : "50 Candy" Staryu Candy	"Egg" : "5km",	Water Gun
+Quick "Attack" : 	Bubble Beam
+Power Gem
+Swift
+"Number" : 121	
+
+Starmie	 	
+"Hit-Points" : 	120
+"Attack" : 	194
+"Defense" :	192
+"Max-CP" :	2182
+"Catch-Rate" :	16%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Water Gun
+Quick "Attack" : 	Hydro Pump
+Power Gem
+Psybeam
+"Number" : 122	
+
+Mr. Mime	 	
+"Hit-Points" : 	80
+"Attack" : 	154
+"Defense" :	196
+"Max-CP" :	1494
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Confusion
+Zen Headbutt	Shadow Ball
+Psybeam
+Psychic
+"Number" : 123	
+
+Scyther	 	
+"Hit-Points" : 	140
+"Attack" : 	176
+"Defense" :	180
+"Max-CP" :	2073
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Steel Wing
+Fury Cutter	Bug Buzz
+X-Scissor
+Night Slash
+"Number" : 124	
+
+Jynx	 	
+"Hit-Points" : 	130
+"Attack" : 	172
+"Defense" :	134
+"Max-CP" :	1716
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Pound
+Frost Breath	Psyshock
+Ice Punch
+Draining Kiss
+"Number" : 125	
+
+Electabuzz		
+"Hit-Points" : 	130
+"Attack" : 	198
+"Defense" :	160
+"Max-CP" :	2119
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Low Kick
+Thunder Shock	Thunderbolt
+Thunder
+Thunder Punch
+"Number" : 126	
+
+Magmar		
+"Hit-Points" : 	130
+"Attack" : 	214
+"Defense" :	158
+"Max-CP" :	2265
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Karate Chop
+Ember	Fire Blast
+Flamethrower
+Fire Punch
+"Number" : 127	
+
+Pinsir		
+"Hit-Points" : 	130
+"Attack" : 	184
+"Defense" :	186
+"Max-CP" :	2121
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Fury Cutter
+Rock Smash	Submission
+Vice Grip
+X-Scissor
+"Number" : 128	
+
+Tauros		
+"Hit-Points" : 	150
+"Attack" : 	148
+"Defense" :	184
+"Max-CP" :	1844
+"Catch-Rate" :	24%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Tackle
+Zen Headbutt	Earthquake
+Iron Head
+Horn "Attack" : 
+"Number" : 129	
+
+Magikarp		
+"Hit-Points" : 	40
+"Attack" : 	42
+"Defense" :	84
+"Max-CP" :	262
+"Catch-Rate" :	56%
+"Flee-Rate" :	15%
+400 Magikarp Candy	"Egg" : "2km",	Splash	Struggle
+"Number" : 130	
+
+Gyarados	 	
+"Hit-Points" : 	190
+"Attack" : 	192
+"Defense" :	196
+"Max-CP" :	2688
+"Catch-Rate" :	8%
+"Flee-Rate" :	7%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Bite
+Dragon Breath	Twister
+Hydro Pump
+Dragon Pulse
+"Number" : 131	
+
+Lapras	 	
+"Hit-Points" : 	260
+"Attack" : 	186
+"Defense" :	190
+"Max-CP" :	2980
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Frost Breath
+Ice Shard	Ice Beam
+Dragon Pulse
+Blizzard
+"Number" : 132	
+
+Ditto
+Not currently available		
+"Hit-Points" : 	96
+"Attack" : 	110
+"Defense" :	110
+"Max-CP" :	919
+"Catch-Rate" :	16%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Pound	Struggle
+"Number" : 133	
+
+Eevee		
+"Hit-Points" : 	110
+"Attack" : 	114
+"Defense" :	128
+"Max-CP" :	1077
+"Catch-Rate" :	32%
+"Flee-Rate" :	10%
+"Evolve" : "25 Candy" Eevee Candy
+Note: Evolution decided at random. 
+Or, for first evolution, nickname:
+Rainer = Vaporeon
+Sparky = Jolteon
+Pyro = Flareon	"Egg" : "10km",	Tackle
+Quick "Attack" : 	Body Slam
+Dig
+Swift
+"Number" : 134	
+
+Vaporeon		
+"Hit-Points" : 	260
+"Attack" : 	186
+"Defense" :	168
+"Max-CP" :	2816
+"Catch-Rate" :	12%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Water Gun	Aqua Tail
+Water Pulse
+Hydro Pump
+"Number" : 135	
+
+Jolteon		
+"Hit-Points" : 	130
+"Attack" : 	192
+"Defense" :	174
+"Max-CP" :	2140
+"Catch-Rate" :	12%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Thunder Shock	Thunderbolt
+Discharge
+Thunder
+"Number" : 136	
+
+Flareon		
+"Hit-Points" : 	130
+"Attack" : 	238
+"Defense" :	178
+"Max-CP" :	2643
+"Catch-Rate" :	12%
+"Flee-Rate" :	6%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Ember	Flamethrower
+Fire Blast
+Heat Wave
+"Number" : 137	
+
+Porygon		
+"Hit-Points" : 	130
+"Attack" : 	156
+"Defense" :	158
+"Max-CP" :	1691
+"Catch-Rate" :	32%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "5km",	Tackle
+Quick "Attack" : 	Discharge
+Psybeam
+Signal Beam
+"Number" : 138	
+
+Omanyte	 	
+"Hit-Points" : 	70
+"Attack" : 	132
+"Defense" :	160
+"Max-CP" :	1119
+"Catch-Rate" :	32%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Omanyte Candy	"Egg" : "10km",	Water Gun
+Mud Shot	Rock Tomb
+Ancient Power
+Brine
+"Number" : 139	
+
+Omastar	 	
+"Hit-Points" : 	140
+"Attack" : 	180
+"Defense" :	202
+"Max-CP" :	2233
+"Catch-Rate" :	12%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Water Gun
+Rock Throw	Rock Slide
+Ancient Power
+Hydro Pump
+"Number" : 140	
+
+Kabuto	 	
+"Hit-Points" : 	60
+"Attack" : 	148
+"Defense" :	142
+"Max-CP" :	1104
+"Catch-Rate" :	32%
+"Flee-Rate" :	9%
+"Evolve" : "50 Candy" Kabuto Candy	"Egg" : "10km",	Scratch
+Mud Shot	Aqua Jet
+Rock Tomb
+Ancient Power
+"Number" : 141	
+
+Kabutops	 	
+"Hit-Points" : 	120
+"Attack" : 	190
+"Defense" :	190
+"Max-CP" :	2130
+"Catch-Rate" :	12%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Fury Cutter
+Mud Shot	Water Pulse
+Stone Edge
+Ancient Power
+"Number" : 142	
+
+Aerodactyl	 	
+"Hit-Points" : 	160
+"Attack" : 	182
+"Defense" :	162
+"Max-CP" :	2165
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Bite
+Steel Wing	Iron Head
+Hyper Beam
+Ancient Power
+"Number" : 143	
+
+Snorlax		
+"Hit-Points" : 	320
+"Attack" : 	180
+"Defense" :	180
+"Max-CP" :	3112
+"Catch-Rate" :	16%
+"Flee-Rate" :	9%
+ "Evolve" : "None"	"Egg" : "10km",	Lick
+Zen Headbutt	Hyper Beam
+Earthquake
+Body Slam
+"Number" : 144	
+
+Articuno
+Not currently available	 	
+"Hit-Points" : 	180
+"Attack" : 	198
+"Defense" :	242
+"Max-CP" :	2978
+"Catch-Rate" :	0%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Frost Breath	Ice Beam
+Icy Wind
+Blizzard
+"Number" : 145	
+
+Zapdos
+Not currently available	 	
+"Hit-Points" : 	180
+"Attack" : 	232
+"Defense" :	194
+"Max-CP" :	3114
+"Catch-Rate" :	0%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Thunder Shock	Discharge
+Thunderbolt
+Thunder
+"Number" : 146	
+
+Moltres
+Not currently available	 	
+"Hit-Points" : 	180
+"Attack" : 	242
+"Defense" :	194
+"Max-CP" :	3240
+"Catch-Rate" :	0%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Ember	Fire Blast
+Heat Wave
+Flamethrower
+"Number" : 147	
+
+Dratini		
+"Hit-Points" : 	82
+"Attack" : 	128
+"Defense" :	110
+"Max-CP" :	983
+"Catch-Rate" :	32%
+"Flee-Rate" :	9%
+"Evolve" : "25 Candy" Dratini Candy	"Egg" : "10km",	Dragon Breath	Wrap
+Aqua Tail
+Twister
+"Number" : 148	
+
+Dragonair		
+"Hit-Points" : 	122
+"Attack" : 	170
+"Defense" :	152
+"Max-CP" :	1747
+"Catch-Rate" :	8%
+"Flee-Rate" :	6%
+"Evolve" : "100 Candy" Dratini Candy	"Egg" : "Not in Eggs",	Dragon Breath	Wrap
+Aqua Tail
+Dragon Pulse
+"Number" : 149	
+
+Dragonite	 	
+"Hit-Points" : 	182
+"Attack" : 	250
+"Defense" :	212
+"Max-CP" :	3500
+"Catch-Rate" :	4%
+"Flee-Rate" :	5%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Dragon Breath
+Steel Wing	Hyper Beam
+Dragon Claw
+Dragon Pulse
+"Number" : 150	
+
+Mewtwo
+Not currently available		
+"Hit-Points" : 	212
+"Attack" : 	284
+"Defense" :	202
+"Max-CP" :	4144
+"Catch-Rate" :	0%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Confusion
+Psycho Cut	Psychic
+Shadow Ball
+Hyper Beam
+"Number" : 151	
+
+Mew
+Not currently available		
+"Hit-Points" : 	200
+"Attack" : 	220
+"Defense" :	220
+"Max-CP" :	3299
+"Catch-Rate" :	0%
+"Flee-Rate" :	10%
+ "Evolve" : "None"	"Egg" : "Not in Eggs",	Pound	Hurricane
+Earthquake
+Psychic
+Dragon Pulse
+Thunder
+Moonblast
+Fire Blast
+Solar Beam
+Hyper Beam
+
+
+
+
+
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Sandshrew
+Sandslash
+Nidoran♀
+Nidorina
+Nidoqueen
+Nidoran♂
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Ninetales
+Jigglypuff
+Wigglytuff
+Zubat
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Dugtrio
+Meowth
+Persian
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Arcanine
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Graveler
+Golem
+Ponyta
+Rapidash
+Slowpoke
+Slowbro
+Magnemite
+Magneton
+Farfetch'd
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Muk
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Electrode
+Exeggcute
+Exeggutor
+Cubone
+Marowak
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+Tauros
+Magikarp
+Gyarados
+Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+Snorlax
+Articuno
+Zapdos
+Moltres
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+Mew
+
+
+
+
+
+
+Abra - 063
+Bellsprout - 069
+Bulbasaur - 001
+Caterpie - 010
+Charmander - 004
+Charmeleon - 005
+Clefairy - 035
+Cubone - 104
+Diglett - 050
+Doduo - 084
+Dragonair - 148
+Dratini - 147
+Drowzee - 096
+Eevee - 133
+Ekans - 023
+Exeggcute - 102
+Gastly - 092
+Geodude - 074
+Gloom - 044
+Goldeen - 118
+Graveler - 075
+Grimer - 088
+Growlithe - 058
+Haunter - 093
+Horsea - 116
+Ivysaur - 002
+Jigglypuff - 039
+Kabuto - 140
+Kadabra - 064
+Kakuna - 014
+Koffing - 109
+Krabby - 098
+Machoke - 067
+Machop - 066
+Magikarp - 129
+Magnemite - 081
+Mankey - 056
+Meowth - 052
+Metapod - 011
+Nidoran(Female) - 029
+Nidoran(Male) - 032
+Nidorina - 030
+Nidorino - 033
+Oddish - 043
+Omanyte - 138
+Paras - 046
+Pidgeotto - 017
+Pidgey - 016
+Pikachu - 025
+Poliwag - 060
+Poliwhirl - 061
+Ponyta - 077
+Psyduck - 054
+Rattata - 019
+Rhyhorn - 111
+Sandshrew - 027
+Seel - 086
+Shellder - 090
+Slowpoke - 079
+Spearow - 021
+Squirtle - 007
+Staryu - 120
+Tentacool - 072
+Venonat - 048
+Voltorb - 100
+Vulpix - 037
+Wartortle - 008
+Weedle - 013
+Weepinbell - 070
+Zubat - 041

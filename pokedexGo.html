@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, user-scalable=no" charset="UTF-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="pokedexGo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="mainContainer container-fluid">
+    <button type="button" id="soundButton"></button>
+    <div id="pokedex"></div>
+    <div class="overlay">
+      <h3 class="xIcon">X</h3>
+      <div class="pkmnInfo">
+        <div class="pokemonBar selectionBar">Pokemon</div>
+        <div class="lgPokeSquareContainer"></div>
+        <div class="evolutionBar selectionBar"><a href="#pokemonEvols" id="pokemonEvols">Evolutions</a></div>
+        <div class="evolContainer"></div>
+        <div class="cpCalcBar selectionBar">CP Calculator
+        </div>
+        <div class="cpCalc">
+          <span class="cpText">CP</span>
+          <input type="number" class="cpInput" maxlength="4">
+          <button type="submit" class="evolveButton">Evolve</button>
+        </div>
+        <div class="cpResults"></div>
+        <div class="statsBar selectionBar"><a href="#pokemonStats" id="pokemonStats">Pokemon Stats</a></div>
+        <div class="statsInfoContainer">
+          <div class="statsInfo"></div>
+        </div>
+
+      </div>
+    </div>
+    <!--pkmnOverlay end-->
+    <div class="headBar">
+      <h1>PokédexGO</h1>
+    </div>
+    <div class="pokemonContainer container-fluid list">
+      <audio id="pokeAudio" class="pokeAudioTag">
+					<source src="" type="audio/wav">
+				</audio>
+    </div>
+    <!-- pokemonContainer end-->
+  </div>
+  <!--mainContainer end-->
+  <div class="searchContainer">
+    <form class="searchBar" id="myForm">
+      <input type="text" name="pokemonSearch" autocomplete="off" class="searchInput searchTerms search-query" placeholder="Search Pokemon">
+      <button type="submit" class="btn"></button>
+    </form>
+    <div class="buttonContainer"><button class="searchButton"><img class="searchIcon" src="assets/searchIcon.png"></button></div>
+  </div>
+  <!-- searchContainer end-->
+  <script type="text/javascript" src="pokedexGo.js"></script>
+  <script type="text/javascript" src="pokemonData.js"></script>
+  <script type="text/javascript" src="pokemonData2.js"></script>
+</body>
+
+</html>

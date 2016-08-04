@@ -1,0 +1,625 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+audio {
+  display: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 1440px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@font-face {
+  font-family: pokemonFont;
+  src: 	url('assets/fonts/pokemonsolid.woff') format('woff'), 
+  		url("assets/fonts/pokemonsolid.ttf") format('truetype'), 
+  		url('assets/fonts/pokemonsolid.svg') format('svg'), url('assets/fonts/pokemonsolid.eot') format('eot');
+}
+
+.pokemonContainer {
+  background-color: #df80ff;
+  padding-top: 4.1em;
+  height: auto;
+}
+
+.headBar {
+  font-family: pokemonFont;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: rgb(214, 0, 0);
+  border-bottom: rgba(0, 0, 0, .5) solid 2px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: yellow;
+  font-size: 1.8em;
+  letter-spacing: 4px;
+  text-shadow: 	1px 1px 0 blue, 
+			  	-1px -1px 0 blue, 
+			  	1px -1px 0 blue, 
+			  	-1px 1px 0 blue, 
+			  	0px 1px 0 blue, 
+			  	1px 0px 0 blue, 
+			  	0px -1px 0 blue, 
+			  	-1px 0px 0 blue, 
+			  	4px 4px 3px blue;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  min-height: 70px;
+  max-height: 340px;
+  max-width: 340px;
+}
+
+p {
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.pokeSquare {
+  box-sizing: border-box;
+  font-size: 2.9vh;
+  border-radius: 15px;
+  padding: .5%;
+  width: 30%;
+  margin: .1em .2em;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  background: #ecb3ff;
+}
+
+div#Eevee.evolSquare {
+  display: block;
+  margin: 0 auto;
+}
+
+.evolSquare {
+  background: none;
+  color: white;
+  font-style: bold;
+  width: 30%;
+}
+
+.selected {
+  box-sizing: border-box;
+  background: #f91010;
+}
+
+.lgPokeSquareContainer {
+  -moz-height: 30%;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(216, 57, 30, 0.49);
+}
+
+.lgPokeSquare {
+  -moz-height: 100%;
+  width: 62%;
+  margin: 3% auto 0;
+  height: 90%;
+  background-image: url("assets/pokedexMobile1.png");
+  background-size: cover;
+  -moz-background-repeat: round;
+  background-repeat: round;
+  background-color: rgba(216, 57, 30, .01);
+  z-index: 10;
+  color: black;
+}
+
+.lgPokeSquare img {
+  width: 62%;
+  height: 62%;
+  padding-top: 7%;
+}
+
+.lgPokeSquare p {
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.searchContainer {
+  text-align: right;
+  height: 3em;
+  width: 100%;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  z-index: 1;
+}
+
+.searchBar {
+  height: 100%;
+  width: 70%;
+  padding: 0;
+  display: inline-block;
+}
+
+.searchTerms {
+  border: 1px solid blue;
+  transition: 1s;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  border-radius: 25px;
+}
+
+::-webkit-input-placeholder {
+  color: blue;
+  opacity: .9 !important;
+}
+
+.searchTerms:focus {
+  background: white;
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.searchActive {
+  height: 80%;
+  transition: 1s;
+  width: 95%;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: .9;
+}
+
+#soundButton {
+  position: fixed;
+  top: 1.5%;
+  right: 3%;
+  height: 2.5em;
+  width: 2.5em;
+  background-image: url('assets/musicOffBtn.png');
+  z-index: 2;
+  background-size: cover;
+  background-color: transparent;
+  outline: none;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  box-shadow: none;
+  background-repeat: no-repeat;
+}
+
+.buttonContainer {
+  height: 3.2em;
+  width: 3.2em;
+  display: inline-block;
+}
+
+.searchButton {
+  height: 100%;
+  width: 100%;
+  padding: 15%;
+  border-radius: 100%;
+}
+
+.searchButton:focus {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.searchButton:Active {
+  width: 110%;
+  height: 110%;
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.searchIcon {
+  width: 100%;
+  height: 100%;
+  min-height: 25px;
+}
+
+.btn {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e00c0c;
+  display: none;
+  box-sizing: border-box;
+  border: 10px double rgba(0, 0, 0, 0.31);
+}
+
+.pkmnInfo {
+  margin: 0;
+  background: rgba(25, 25, 25, .3);
+  height: 100%;
+  width: 100%;
+  border: solid 1px black;
+  overflow: scroll;
+}
+
+.xIcon {
+  position: fixed;
+  color: black;
+  margin: 0;
+  font-size: 1.5em;
+  top: 2%;
+  right: 4%;
+  border: solid black 1px;
+  padding: .5em;
+  border-radius: .4em;
+  border: none;
+  background: rgba(0, 0, 0, .1);
+  opacity: .5;
+  display: none;
+}
+
+.cpCalc {
+  display: none;
+  margin: 3%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.cpInput {
+  font-size: 75%;
+  padding: 5px;
+  border: black solid .5px;
+  border-radius: 5px;
+  width: 2.5em;
+}
+
+.evolveButton {
+  box-sizing: border-box;
+  background: yellow;
+  color: black;
+  border: rgba(0, 0, 0, .5) 3px solid;
+  border-radius: 10px;
+  margin-left: .5em;
+}
+
+.statsInfoContainer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  height: auto;
+}
+
+.statsInfo {
+  text-align: center;
+  font-size: 150%;
+}
+
+h5 {
+  font-size: .8em;
+  margin: .1em;
+  margin-top: 0.1em;
+  margin-right: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 0.1em;
+  padding-left: .3em;
+  text-align: left;
+  line-height: 1.3em;
+  background: cornflowerblue;
+  color: black;
+  font-weight: 500;
+}
+
+.statHeading {
+  margin: 0 auto;
+  line-height: 2em;
+  font-size: 1.3em;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, .5);
+}
+
+.selectionBar {
+  background-color: rgba(216, 57, 30, 0.49);
+  box-shadow: black 2px 0.5px 2px 1.5px;
+  border-radius: 10px;
+  line-height: 2.4em;
+  height: auto;
+  font-size: 4vh;
+  color: white;
+}
+
+.evolContainer {
+  height: auto;
+  background: none;
+}
+
+@media screen and (min-width: 600px) {
+  .pokeSquare {
+    font-size: 2vh;
+    padding: .5%;
+    width: 22%;
+  }
+  .evolSquare {
+    width: 30%;
+  }
+  .pokemonContainer {
+    padding-top: 5.2em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .lgPokeSquare p {
+    font-size: 2em;
+  }
+  .lgPokeSquare {
+    width: 55%;
+  }
+  .cpCalc {
+    font-size: 3.5em;
+  }
+  .cpResults {
+    font-size: 150%;
+  }
+  .statsInfo {
+    font-size: 225%;
+  }
+  .searchContainer {
+    height: 5em;
+  }
+  .searchActive {
+    font-size: 2.5em;
+  }
+  .buttonContainer {
+    height: 4.9em;
+    width: 4.9em;
+  }
+  #soundButton {
+    top: 0.5em;
+    height: 3.5em;
+    width: 3.5em;
+  }
+  .xIcon {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pokeSquare {
+    width: 17.5%;
+  }
+  .evolSquare {
+    width: 30%;
+  }
+  .lgPokeSquare {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #soundButton:hover {
+    border: 5px;
+  }
+  p {
+    font-size: 1.4em;
+  }
+  .selectionBar {
+    font-size: 1.7em;
+  }
+  .cpCalc {
+    font-size: 1.5em;
+  }
+  .cpInput {
+    width: 3em;
+  }
+  .cpResults {
+    font-size: 1em;
+  }
+  .statsInfo {
+    font-size: 1.5em
+  }
+  .pokeSquare {
+    width: 12.5%;
+  }
+  .evolSquare {
+    width: 25%;
+    margin: 0 2%;
+    font-size: .6em;
+  }
+  .evolContainer {
+    padding: 1% 0;
+  }
+  .selectionBar:hover {
+    font-size: 185%;
+  }
+  .evolveButton:hover {
+    font-size: 95%;
+    border: 3px blue solid;
+  }
+  .pokeSquare:hover {
+    background: yellow;
+    border: red solid 4px;
+    color: black;
+  }
+  .lgPokeSquareContainer:hover,
+  .lgPokeSquare:hover {
+    background: white;
+    border: none;
+  }
+  .mainContainer {
+    max-height: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: rgb(73, 52, 52);
+  }
+  #pokedex {
+    display: none;
+    box-sizing: border-box;
+    border-left: solid 2px black;
+    min-width: 300px;
+    min-height: 400px;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    z-index: 0;
+    background: url('assets/pokedex1.png');
+    background-repeat: round;
+    background-size: cover;
+    opacity: .8;
+  }
+  .overlayDesk {
+    width: 35%;
+    height: 63%;
+    z-index: 1;
+    position: fixed;
+    top: 27%;
+    right: 8%;
+    border: solid 3px black;
+    border-radius: 10px;
+  }
+  .xIcon {
+    font-size: 2em;
+    color: white;
+  }
+  .xIcon:hover {
+    background: white;
+    color: black;
+    font-size: 2.1em;
+  }
+  .lgPokeSquareContainer {
+    position: fixed;
+    top: 27.5%;
+    left: 8%;
+    margin: auto;
+    height: 51.5%;
+    width: 38%;
+    background: white;
+  }
+  .lgPokeSquare p {
+    line-height: .7em;
+    font-size: 2.2rem;
+  }
+  .lgPokeSquare {
+    padding: 15%;
+    padding-top: 2%;
+    background: none;
+    width: 90%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .lgPokeSquare img {
+    height: 100%;
+    width: 75%;
+  }
+  .lgPokeSquare img:hover {
+    width: 100%;
+    height: 100%;
+  }
+  .headBar {
+    text-align: left;
+    padding: 0;
+  }
+  h1 {
+    margin-left: 2em;
+    font-size: 2em;
+    padding: 0;
+  }
+  h1:hover {
+    letter-spacing: .8em;
+    transition: 5s;
+  }
+  .searchContainer {
+    top: 1em;
+    right: 5.5em;
+    width: 23em;
+    height: 3em;
+  }
+  .searchButton {
+    height: 100%;
+    width: 100%;
+    padding: 15%;
+    border-radius: 100%;
+    background: none;
+    border: none;
+  }
+  .buttonContainer {
+    height: 2.5em;
+    width: 2.5em;
+    position: relative;
+    right: 3em;
+    top: .4em;
+    opacity: .8;
+  }
+  .searchActive {
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .searchTerms {
+    padding-left: .9em;
+  }
+  ::-webkit-input-placeholder {
+    color: blue;
+    opacity: .3 !important;
+  }
+}
+
+@media screen and (min-width: 1365px) {
+  .pokeSquare p {
+    font-size: 1.5em;
+  }
+  .pokeSquare {
+    width: 11%;
+  }
+  .evolSquare {
+    width: 25%;
+    margin: 0 2%;
+    font-size: .8em;
+  }
+  .lgPokeSquare {
+    width: 80%;
+    height: 100%;
+    line-height: .8em;
+  }
+  .lgPokeSquare p {
+    font-size: 3.5rem;
+  }
+  .lgPokeSquare img {
+    padding: 0;
+    height: 95%;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .selectionBar {
+    font-size: 2em;
+  }
+  .cpCalc {
+    font-size: 2.2em;
+  }
+  .statsInfo {
+    font-size: 1.7em;
+  }
+}
