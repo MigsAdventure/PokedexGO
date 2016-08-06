@@ -25,7 +25,8 @@ a {
   font-family: pokemonFont;
   src: 	url('assets/fonts/pokemonsolid.woff') format('woff'), 
   		url("assets/fonts/pokemonsolid.ttf") format('truetype'), 
-  		url('assets/fonts/pokemonsolid.svg') format('svg'), url('assets/fonts/pokemonsolid.eot') format('eot');
+  		url('assets/fonts/pokemonsolid.svg') format('svg'), 
+      url('assets/fonts/pokemonsolid.eot') format('eot');
 }
 
 .pokemonContainer {
@@ -80,7 +81,7 @@ p {
   font-size: 2.9vh;
   border-radius: 15px;
   padding: .5%;
-  width: 30%;
+  width: 31%;
   margin: .1em .2em;
   text-align: center;
   display: inline-block;
