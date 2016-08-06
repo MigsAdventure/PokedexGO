@@ -1,51 +1,5 @@
 $(document).ready(function(e) {
 
-  if ($(window).width() > 1023) {
-    $(".searchInput").addClass("searchActive");
-    $(".overlay").addClass("overlayDesk");
-    $(".pokemonBar").remove();
-  }
-
-  document.getElementById('pokeAudio').muted = true;
-  $(".evolContainer").on("click", function(e) {
-    addStatsData();
-  });
-
-  $(document).on("contextmenu", function(e) {
-    if (e.target.nodeName != "INPUT" && e.target.nodeName != "TEXTAREA")
-      e.preventDefault();
-  });
-
-  var soundButton = false;
-  $("#soundButton").on("click", function() {
-    if (soundButton === false) {
-      document.getElementById('pokeAudio').muted = false;
-      $("#soundButton").css("background-image", "url('assets/musicOnBtn.png')");
-      $(".pokeAudioTag").attr("src", "assets/sounds/pika1.wav");
-      $(".pokeAudioTag")[0].play();
-      soundButton = true;
-    } else {
-      document.getElementById('pokeAudio').muted = true;
-      $("#soundButton").css("background-image", "url('assets/musicOffBtn.png')");
-      soundButton = false;
-    }
-  });
-
-  $(".cpCalcBar").on("click", function(e) {
-    e.preventDefault();
-    $(".pkmnInfo").animate({
-      scrollTop: $($(".evolutionBar").children().attr('href')).offset().top
-    }, 300);
-    if ($(".cpCalc").is(":visible")) {
-      $(".cpCalc").slideUp();
-      $(".cpResults").hide();
-    } else {
-      $(".cpCalc").slideDown();
-      $(".cpResults").show();
-
-    }
-  });
-
   var checkText = false;
   var pokemonNumbers = [];
 
@@ -61,14 +15,41 @@ $(document).ready(function(e) {
 
   var pokemonSquares = [];
   for (var i = 0; i < pokemonNames.length; i++) {
-    pokemonSquares.push($("<div>").addClass("pokeSquare").attr("id", pokemonNames[i]).append($("<img>").attr("id", [i + 1] + ".wav").attr("src", "assets/" + pokemonNumbers[i] + ".png").addClass("pokeImage").addClass(pokemonNames[i] + "pic")).append($("<p>").addClass("bold").text(pokemonNames[i])));
+    pokemonSquares.push($("<div>").addClass("pokeSquare").attr("id", pokemonNames[i]).append($("<img>").attr("id", [i + 1] + ".wav").attr("src", "assets/" + pokemonNumbers[i] + ".png").addClass("pokeImage")).append($("<p>").addClass("bold").text(pokemonNames[i])));
   }
 
-  function reset(e) {
     $(".pokemonContainer").append(pokemonSquares);
+
+  //removes the pop up on rightclicking images
+  $(document).on("contextmenu", function(e) {
+    if (e.target.nodeName != "INPUT" && e.target.nodeName != "TEXTAREA")
+      e.preventDefault();
+  });
+
+  if ($(window).width() > 1023) {
+    $(".searchInput").addClass("searchActive");
+    $(".overlay").addClass("overlayDesk");
+    $(".pokemonBar").remove();
   }
 
-  reset();
+  //audio tag is muted by default 
+  document.getElementById('pokeAudio').muted = true;
+
+  // soundButton changes background image and audio tag mute to true and false when clicked
+  var soundButton = false;
+  $("#soundButton").on("click", function() {
+    if (soundButton === false) {
+      document.getElementById('pokeAudio').muted = false;
+      $("#soundButton").css("background-image", "url('assets/musicOnBtn.png')");
+      $(".pokeAudioTag").attr("src", "assets/sounds/pika1.wav");
+      $(".pokeAudioTag")[0].play();
+      soundButton = true;
+    } else {
+      document.getElementById('pokeAudio').muted = true;
+      $("#soundButton").css("background-image", "url('assets/musicOffBtn.png')");
+      soundButton = false;
+    }
+  });
 
   var buttonPress = false;
 
@@ -90,19 +71,7 @@ $(document).ready(function(e) {
     return false;
   });
 
-  $(".pokeImage").on("click", function() {
-    var randomSound = Math.floor(Math.random() * 7);
-    if ($(this).attr("id") === "25.wav") {
-      console.log(randomSound);
-      $(".pokeAudioTag").attr("src", "assets/sounds/" + "pika" + [randomSound] + ".wav");
-    } else {
-      $(".pokeAudioTag").attr("src", "assets/sounds/" + $(this).attr("id"));
-      console.log($(".pokeAudioTag").attr("src"));
-    }
-    $(".pokeAudioTag")[0].play();
-    $("#Nidoran♀").removeClass("selected");
-    $("#Nidoran♂").removeClass("selected");
-  });
+  $('.searchBar .btn').on('click', filterPokemon);
 
   function filterPokemon() {
     var query = $.trim($(this).prevAll('.search-query').val().toLowerCase());
@@ -118,21 +87,20 @@ $(document).ready(function(e) {
     });
   }
 
-  $('.searchBar .btn').on('click', filterPokemon);
-
-  // $(".evolSquare").on("click",function () {
-  // 	console.log("work!!");
-  // 	var infoArray = [];
-  // 	infoArray.push($(this).clone().addClass("lgPokeSquare"));
-
-  // 	$(".overlay").remove("lgPokeSquare");
-  // 	$(".overlay").append(infoArray);
-  // 	$(".pkmnInfo").data("currentName",$(this).attr("id"));
-
-  // });
+  //pokemon image have a click handler for sounds. Number 25 is pikachu
+  $(".pokeImage").on("click", function() {
+    var randomSound = Math.floor(Math.random() * 7);
+    if ($(this).attr("id") === "25.wav") {
+      $(".pokeAudioTag").attr("src", "assets/sounds/" + "pika" + [randomSound] + ".wav");
+    } else {
+      $(".pokeAudioTag").attr("src", "assets/sounds/" + $(this).attr("id"));
+    }
+    $(".pokeAudioTag")[0].play();
+    $("#Nidoran♀").removeClass("selected");
+    $("#Nidoran♂").removeClass("selected");
+  });
 
   $(".pokeSquare").on("click", function(e) {
-    // needed pokemons to fade in because search fades out and it wouldnt show on evolve button
 
     var infoArray = [];
     $(".searchContainer").hide();
@@ -153,17 +121,70 @@ $(document).ready(function(e) {
     $(".lgPokeSquareContainer").append(infoArray);
     $(".pkmnInfo").data("currentName", $(this).attr("id")).data("nextEvolution", $(this).next().attr("id"));
     var currentPokemon = $(".pkmnInfo").data("currentName");
-    console.log($(this).attr("id"));
     if (currentPokemon === $(this).attr("id")) {
       $("#" + currentPokemon).addClass("selected");
     }
     evolveFunction();
     addStatsData();
     $("div.pokeSquare.evolSquare").show();
-
   });
 
+  $(".pokemonBar").on("click", function() {
+    if ($(".lgPokeSquareContainer").is(":visible")) {
+      $(".lgPokeSquareContainer").slideUp();
+    } else {
+      $(".lgPokeSquareContainer").slideDown();
+    }
+  });
+
+  $(".evolutionBar").on("click", function(e) {
+    e.preventDefault();
+    if ($(".evolContainer").is(":visible")) {
+      $(".evolContainer").slideUp();
+    } else {
+      $(".evolContainer").slideDown();
+
+    }
+  });
+
+  //pokemon inside the pokeSquare will have their stat data loaded dynamically as they are clicked
+  $(".evolContainer").on("click", function(e) {
+    addStatsData();
+  });
+
+  //when the cpCalcBar is clicked, the pkmnInfo container scrolls to evolutionBar on top. 
+  //It hides the content of CP if visible and shows if not visible
+  $(".cpCalcBar").on("click", function(e) {
+    e.preventDefault();
+    $(".pkmnInfo").animate({
+      scrollTop: $($(".evolutionBar").children().attr('href')).offset().top
+    }, 300);
+    if ($(".cpCalc").is(":visible")) {
+      $(".cpCalc").slideUp();
+      $(".cpResults").hide();
+    } else {
+      $(".cpCalc").slideDown();
+      $(".cpResults").show();
+    }
+  });
+
+  $(".statsBar").on("click", function(e) {
+    e.preventDefault();
+    $(".pkmnInfo").animate({
+      scrollTop: $($(this).children().attr('href')).offset().top
+    }, 300);
+    if ($(".statsInfoContainer").is(":visible")) {
+      $(".statsInfoContainer").slideUp();
+    } else {
+      addStatsData();
+      $(".statsInfoContainer").slideDown();
+    }
+  });
+
+  $(".evolveButton").on("click", calculateCP);
+
   $(".xIcon").on("click", function(e) {
+    //submitting the form allows the pokemonContainer to show all pokemons again
     if ($(".searchInput").val() !== "") {
       document.getElementById("myForm").submit();
     }
@@ -184,7 +205,6 @@ $(document).ready(function(e) {
     $(".lgPokeSquareContainer").empty();
     $("#Nidoran♀").removeClass("selected");
     $("#Nidoran♂").removeClass("selected");
-
   });
 
   function calculateCP() {
@@ -199,6 +219,7 @@ $(document).ready(function(e) {
     var cpEntered = " ";
     var multipliers = " ";
     var avgMsg = " ";
+    // No pokemon evolutions if currentPokemon does not match the pokeCP object's name
     results.push($("<h2>").text("This Pokemon has no Evolutions!"));
     var cpPokemon = pokeCP.pokemon;
     for (var i = 0; i < cpPokemon.length; i++) {
@@ -269,28 +290,9 @@ $(document).ready(function(e) {
         }
       }
     }
-
     $(".statsInfo").append(statsArray);
   }
-
-  $(".statsBar").on("click", function(e) {
-    e.preventDefault();
-    $(".pkmnInfo").animate({
-      scrollTop: $($(this).children().attr('href')).offset().top
-    }, 300);
-    if ($(".statsInfoContainer").is(":visible")) {
-
-      $(".statsInfoContainer").slideUp();
-
-    } else {
-      addStatsData();
-      $(".statsInfoContainer").slideDown();
-
-    }
-  });
-
-  $(".evolveButton").on("click", calculateCP);
-
+ 
   function evolveFunction() {
     $(".evolContainer").empty();
     var currentPokemon = $(".pkmnInfo").data("currentName");
@@ -307,35 +309,9 @@ $(document).ready(function(e) {
       }
     }
 
+    //nidoran appeared twice on evolutions container, so I added this plus removed selected class on pokeImage click
     evolutionsArray[1].splice(1, 1);
     $(".evolContainer").append(evolutionsArray);
-
   }
 
-  $(".evolutionBar").on("click", function(e) {
-    e.preventDefault();
-    if ($(".evolContainer").is(":visible")) {
-      $(".evolContainer").slideUp();
-    } else {
-      $(".evolContainer").slideDown();
-
-    }
-  });
-
-  $(".pokemonBar").on("click", function() {
-    if ($(".lgPokeSquareContainer").is(":visible")) {
-      $(".lgPokeSquareContainer").slideUp();
-    } else {
-      $(".lgPokeSquareContainer").slideDown();
-    }
-  });
-
 });
-
-// $( "input" )
-// .keyup(function(e) {
-//   var value = $( this ).val();
-
-//  console.log(value);
-// })
-// .keyup();
