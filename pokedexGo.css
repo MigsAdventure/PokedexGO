@@ -47,6 +47,7 @@ a {
 }
 
 h1 {
+  
   margin: 0;
   padding: 10px;
   color: yellow;
@@ -120,7 +121,7 @@ div#Eevee.evolSquare {
   height: 90%;
   background-image: url("assets/pokedexMobile1.png");
   background-size: cover;
-  -moz-background-repeat: round;
+  -moz-background-repeat: round !important;
   background-repeat: round;
   background-color: rgba(216, 57, 30, .01);
   z-index: 10;
