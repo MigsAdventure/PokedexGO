@@ -1,0 +1,1243 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 12, ../scss/partials/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 25, ../scss/partials/_normalize.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 39, ../scss/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 52, ../scss/partials/_normalize.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 62, ../scss/partials/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 71, ../scss/partials/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 82, ../scss/partials/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 95, ../scss/partials/_normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 105, ../scss/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 115, ../scss/partials/_normalize.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 124, ../scss/partials/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 134, ../scss/partials/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 145, ../scss/partials/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 153, ../scss/partials/_normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 162, ../scss/partials/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 171, ../scss/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 179, ../scss/partials/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 183, ../scss/partials/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 194, ../scss/partials/_normalize.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 203, ../scss/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 212, ../scss/partials/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 220, ../scss/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Remove the margin in Firefox and Safari.
+ */
+/* line 231, ../scss/partials/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 244, ../scss/partials/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 254, ../scss/partials/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 265, ../scss/partials/_normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 276, ../scss/partials/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 288, ../scss/partials/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 302, ../scss/partials/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 316, ../scss/partials/_normalize.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 325, ../scss/partials/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 334, ../scss/partials/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 344, ../scss/partials/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 354, ../scss/partials/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 363, ../scss/partials/_normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 373, ../scss/partials/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 386, ../scss/partials/_normalize.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 395, ../scss/partials/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 406, ../scss/partials/_normalize.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 414, ../scss/partials/_normalize.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 425, ../scss/partials/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/*
+You can define a default value as well if an attribute
+isn't passed
+
+@mixin default-text-color($tc: $black){
+  color: $tc;
+}
+*/
+/* line 5, ../scss/partials/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: pokemonFont;
+  src: url("../scss/fonts/pokemonsolid.woff") format("woff"), url("../scss/fonts/pokemonsolid.ttf") format("truetype"), url("../scss/fonts/pokemonsolid.svg") format("svg"), url("../scss/fonts/pokemonsolid.eot") format("eot");
+}
+/* line 19, ../scss/partials/_base.scss */
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 70%;
+}
+
+/* line 25, ../scss/partials/_base.scss */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 1440px;
+  margin: auto;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 40, ../scss/partials/_base.scss */
+#wrapper {
+  margin: 0 auto;
+}
+
+/* line 44, ../scss/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 9, ../scss/styles.scss */
+audio {
+  display: none;
+}
+
+/* line 13, ../scss/styles.scss */
+.pokemonContainer {
+  background-color: #df80ff;
+  padding-top: 4.1em;
+  height: auto;
+}
+
+/* line 19, ../scss/styles.scss */
+.headBar {
+  font-family: pokemonFont;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: #d60000;
+  border-bottom: rgba(0, 0, 0, 0.5) solid 2px;
+}
+
+/* line 30, ../scss/styles.scss */
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: yellow;
+  font-size: 1.8em;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 0 blue, -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, 0px 1px 0 blue, 1px 0px 0 blue, 0px -1px 0 blue, -1px 0px 0 blue, 4px 4px 3px blue;
+}
+
+/* line 48, ../scss/styles.scss */
+img {
+  width: 100%;
+  height: 100%;
+  min-height: 70px;
+  max-height: 340px;
+  max-width: 340px;
+}
+
+/* line 56, ../scss/styles.scss */
+p {
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+/* line 61, ../scss/styles.scss */
+.pokeSquare {
+  box-sizing: border-box;
+  font-size: 2.9vh;
+  border-radius: 15px;
+  padding: .5%;
+  width: 31%;
+  margin: .1em .2em;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  background: #ecb3ff;
+}
+
+/* line 74, ../scss/styles.scss */
+div#Eevee.evolSquare {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 79, ../scss/styles.scss */
+.evolSquare {
+  background: none;
+  color: white;
+  font-style: bold;
+  width: 30%;
+}
+
+/* line 86, ../scss/styles.scss */
+.selected {
+  box-sizing: border-box;
+  background: #f91010;
+}
+
+/* line 91, ../scss/styles.scss */
+.lgPokeSquareContainer {
+  -moz-height: 30%;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(216, 57, 30, 0.49);
+}
+
+/* line 98, ../scss/styles.scss */
+.lgPokeSquare {
+  -moz-height: 100%;
+  width: 62%;
+  margin: 3% auto 0;
+  height: 90%;
+  background-image: url("../../assets/pokedexMobile1.png");
+  background-size: cover;
+  -moz-background-repeat: round !important;
+  background-repeat: round;
+  background-color: rgba(216, 57, 30, 0.01);
+  z-index: 10;
+  color: black;
+}
+
+/* line 112, ../scss/styles.scss */
+.lgPokeSquare img {
+  width: 62%;
+  height: 62%;
+  padding-top: 7%;
+}
+
+/* line 118, ../scss/styles.scss */
+.lgPokeSquare p {
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+/* line 123, ../scss/styles.scss */
+.searchContainer {
+  text-align: right;
+  height: 3em;
+  width: 100%;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  z-index: 1;
+}
+
+/* line 133, ../scss/styles.scss */
+.searchBar {
+  height: 100%;
+  width: 70%;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 140, ../scss/styles.scss */
+.searchTerms {
+  border: 1px solid blue;
+  transition: 1s;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  border-radius: 25px;
+}
+
+/* line 149, ../scss/styles.scss */
+::-webkit-input-placeholder {
+  color: blue;
+  opacity: .9 !important;
+}
+
+/* line 154, ../scss/styles.scss */
+.searchTerms:focus {
+  background: white;
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 162, ../scss/styles.scss */
+.searchActive {
+  height: 80%;
+  transition: 1s;
+  width: 95%;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: .9;
+}
+
+/* line 171, ../scss/styles.scss */
+#soundButton {
+  position: fixed;
+  top: 1.5%;
+  right: 3%;
+  height: 2.5em;
+  width: 2.5em;
+  background-image: url("../../assets/images/musicOffBtn.png");
+  z-index: 2;
+  background-size: cover;
+  background-color: transparent;
+  outline: none;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  box-shadow: none;
+  background-repeat: no-repeat;
+}
+
+/* line 188, ../scss/styles.scss */
+.buttonContainer {
+  height: 3.2em;
+  width: 3.2em;
+  display: inline-block;
+}
+
+/* line 194, ../scss/styles.scss */
+.searchButton {
+  height: 100%;
+  width: 100%;
+  padding: 15%;
+  border-radius: 100%;
+}
+
+/* line 201, ../scss/styles.scss */
+.searchButton:focus {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 208, ../scss/styles.scss */
+.searchButton:Active {
+  width: 110%;
+  height: 110%;
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 217, ../scss/styles.scss */
+.searchIcon {
+  width: 100%;
+  height: 100%;
+  min-height: 25px;
+}
+
+/* line 223, ../scss/styles.scss */
+.btn {
+  display: none;
+}
+
+/* line 227, ../scss/styles.scss */
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e00c0c;
+  display: none;
+  box-sizing: border-box;
+  border: 10px double rgba(0, 0, 0, 0.31);
+}
+
+/* line 238, ../scss/styles.scss */
+.pkmnInfo {
+  margin: 0;
+  background: rgba(25, 25, 25, 0.3);
+  height: 100%;
+  width: 100%;
+  border: solid 1px black;
+  overflow: scroll;
+}
+
+/* line 247, ../scss/styles.scss */
+.xIcon {
+  position: fixed;
+  color: black;
+  margin: 0;
+  font-size: 1.5em;
+  top: 2%;
+  right: 4%;
+  border: solid black 1px;
+  padding: .5em;
+  border-radius: .4em;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  opacity: .5;
+  display: none;
+}
+
+/* line 263, ../scss/styles.scss */
+.cpCalc {
+  display: none;
+  margin: 3%;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 270, ../scss/styles.scss */
+.cpInput {
+  font-size: 75%;
+  padding: 5px;
+  border: black solid .5px;
+  border-radius: 5px;
+  width: 2.5em;
+}
+
+/* line 278, ../scss/styles.scss */
+.evolveButton {
+  box-sizing: border-box;
+  background: yellow;
+  color: black;
+  border: rgba(0, 0, 0, 0.5) 3px solid;
+  border-radius: 10px;
+  margin-left: .5em;
+}
+
+/* line 287, ../scss/styles.scss */
+.statsInfoContainer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  height: auto;
+}
+
+/* line 294, ../scss/styles.scss */
+.statsInfo {
+  text-align: center;
+  font-size: 150%;
+}
+
+/* line 299, ../scss/styles.scss */
+h5 {
+  font-size: .8em;
+  margin: .1em;
+  margin-top: 0.1em;
+  margin-right: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 0.1em;
+  padding-left: .3em;
+  text-align: left;
+  line-height: 1.3em;
+  background: cornflowerblue;
+  color: black;
+  font-weight: 500;
+}
+
+/* line 314, ../scss/styles.scss */
+.statHeading {
+  margin: 0 auto;
+  line-height: 2em;
+  font-size: 1.3em;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/* line 322, ../scss/styles.scss */
+.selectionBar {
+  background-color: rgba(216, 57, 30, 0.49);
+  box-shadow: black 2px 0.5px 2px 1.5px;
+  border-radius: 10px;
+  line-height: 2.4em;
+  height: auto;
+  font-size: 4vh;
+  color: white;
+}
+
+/* line 332, ../scss/styles.scss */
+.evolContainer {
+  height: auto;
+  background: none;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 338, ../scss/styles.scss */
+  .pokeSquare {
+    font-size: 2vh;
+    padding: .5%;
+    width: 22%;
+  }
+
+  /* line 343, ../scss/styles.scss */
+  .evolSquare {
+    width: 30%;
+  }
+
+  /* line 346, ../scss/styles.scss */
+  .pokemonContainer {
+    padding-top: 5.2em;
+  }
+
+  /* line 349, ../scss/styles.scss */
+  h1 {
+    font-size: 3em;
+  }
+
+  /* line 352, ../scss/styles.scss */
+  .lgPokeSquare p {
+    font-size: 2em;
+  }
+
+  /* line 355, ../scss/styles.scss */
+  .lgPokeSquare {
+    width: 55%;
+  }
+
+  /* line 358, ../scss/styles.scss */
+  .cpCalc {
+    font-size: 3.5em;
+  }
+
+  /* line 361, ../scss/styles.scss */
+  .cpResults {
+    font-size: 150%;
+  }
+
+  /* line 364, ../scss/styles.scss */
+  .statsInfo {
+    font-size: 225%;
+  }
+
+  /* line 367, ../scss/styles.scss */
+  .searchContainer {
+    height: 5em;
+  }
+
+  /* line 370, ../scss/styles.scss */
+  .searchActive {
+    font-size: 2.5em;
+  }
+
+  /* line 373, ../scss/styles.scss */
+  .buttonContainer {
+    height: 4.9em;
+    width: 4.9em;
+  }
+
+  /* line 377, ../scss/styles.scss */
+  #soundButton {
+    top: 0.5em;
+    height: 3.5em;
+    width: 3.5em;
+  }
+
+  /* line 382, ../scss/styles.scss */
+  .xIcon {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 388, ../scss/styles.scss */
+  .pokeSquare {
+    width: 17.5%;
+  }
+
+  /* line 391, ../scss/styles.scss */
+  .evolSquare {
+    width: 30%;
+  }
+
+  /* line 394, ../scss/styles.scss */
+  .lgPokeSquare {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 400, ../scss/styles.scss */
+  #soundButton:hover {
+    border: 5px;
+  }
+
+  /* line 403, ../scss/styles.scss */
+  p {
+    font-size: 1.4em;
+  }
+
+  /* line 406, ../scss/styles.scss */
+  .selectionBar {
+    font-size: 1.7em;
+  }
+
+  /* line 409, ../scss/styles.scss */
+  .cpCalc {
+    font-size: 1.5em;
+  }
+
+  /* line 412, ../scss/styles.scss */
+  .cpInput {
+    width: 3em;
+  }
+
+  /* line 415, ../scss/styles.scss */
+  .cpResults {
+    font-size: 1em;
+  }
+
+  /* line 418, ../scss/styles.scss */
+  .statsInfo {
+    font-size: 1.5em;
+  }
+
+  /* line 421, ../scss/styles.scss */
+  .pokeSquare {
+    width: 12.5%;
+  }
+
+  /* line 424, ../scss/styles.scss */
+  .evolSquare {
+    width: 25%;
+    margin: 0 2%;
+    font-size: .6em;
+  }
+
+  /* line 429, ../scss/styles.scss */
+  .evolContainer {
+    padding: 1% 0;
+  }
+
+  /* line 432, ../scss/styles.scss */
+  .selectionBar:hover {
+    font-size: 185%;
+  }
+
+  /* line 435, ../scss/styles.scss */
+  .evolveButton:hover {
+    font-size: 95%;
+    border: 3px blue solid;
+  }
+
+  /* line 439, ../scss/styles.scss */
+  .pokeSquare:hover {
+    background: yellow;
+    border: red solid 4px;
+    color: black;
+  }
+
+  /* line 444, ../scss/styles.scss */
+  .lgPokeSquareContainer:hover,
+  .lgPokeSquare:hover {
+    background: white;
+    border: none;
+  }
+
+  /* line 449, ../scss/styles.scss */
+  .mainContainer {
+    max-height: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #493434;
+  }
+
+  /* line 456, ../scss/styles.scss */
+  #pokedex {
+    display: none;
+    box-sizing: border-box;
+    border-left: solid 2px black;
+    min-width: 300px;
+    min-height: 400px;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    z-index: 0;
+    background: url("../../assets/pokedex1.png");
+    background-repeat: round;
+    background-size: cover;
+    opacity: .8;
+  }
+
+  /* line 475, ../scss/styles.scss */
+  .overlayDesk {
+    width: 35%;
+    height: 63%;
+    z-index: 1;
+    position: fixed;
+    top: 27%;
+    right: 8%;
+    border: solid 3px black;
+    border-radius: 10px;
+  }
+
+  /* line 485, ../scss/styles.scss */
+  .xIcon {
+    font-size: 2em;
+    color: white;
+  }
+
+  /* line 489, ../scss/styles.scss */
+  .xIcon:hover {
+    background: white;
+    color: black;
+    font-size: 2.1em;
+  }
+
+  /* line 494, ../scss/styles.scss */
+  .lgPokeSquareContainer {
+    position: fixed;
+    top: 27.5%;
+    left: 8%;
+    margin: auto;
+    height: 51.5%;
+    width: 38%;
+    background: white;
+  }
+
+  /* line 503, ../scss/styles.scss */
+  .lgPokeSquare p {
+    line-height: .7em;
+    font-size: 2.2rem;
+  }
+
+  /* line 507, ../scss/styles.scss */
+  .lgPokeSquare {
+    padding: 15%;
+    padding-top: 2%;
+    background: none;
+    width: 90%;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  /* line 515, ../scss/styles.scss */
+  .lgPokeSquare img {
+    height: 100%;
+    width: 75%;
+  }
+
+  /* line 519, ../scss/styles.scss */
+  .lgPokeSquare img:hover {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* line 523, ../scss/styles.scss */
+  .headBar {
+    text-align: left;
+    padding: 0;
+  }
+
+  /* line 527, ../scss/styles.scss */
+  h1 {
+    margin-left: 2em;
+    font-size: 2em;
+    padding: 0;
+  }
+
+  /* line 532, ../scss/styles.scss */
+  h1:hover {
+    letter-spacing: .8em;
+    transition: 5s;
+  }
+
+  /* line 536, ../scss/styles.scss */
+  .searchContainer {
+    top: 1em;
+    right: 5.5em;
+    width: 23em;
+    height: 3em;
+  }
+
+  /* line 542, ../scss/styles.scss */
+  .searchButton {
+    height: 100%;
+    width: 100%;
+    padding: 15%;
+    border-radius: 100%;
+    background: none;
+    border: none;
+  }
+
+  /* line 550, ../scss/styles.scss */
+  .buttonContainer {
+    height: 2.5em;
+    width: 2.5em;
+    position: relative;
+    right: 3em;
+    top: .4em;
+    opacity: .8;
+  }
+
+  /* line 558, ../scss/styles.scss */
+  .searchActive {
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  /* line 562, ../scss/styles.scss */
+  .searchTerms {
+    padding-left: .9em;
+  }
+
+  /* line 565, ../scss/styles.scss */
+  ::-webkit-input-placeholder {
+    color: blue;
+    opacity: .3 !important;
+  }
+}
+@media screen and (min-width: 1365px) {
+  /* line 572, ../scss/styles.scss */
+  .pokeSquare p {
+    font-size: 1.5em;
+  }
+
+  /* line 575, ../scss/styles.scss */
+  .pokeSquare {
+    width: 11%;
+  }
+
+  /* line 578, ../scss/styles.scss */
+  .evolSquare {
+    width: 25%;
+    margin: 0 2%;
+    font-size: .8em;
+  }
+
+  /* line 583, ../scss/styles.scss */
+  .lgPokeSquare {
+    width: 80%;
+    height: 100%;
+    line-height: .8em;
+  }
+
+  /* line 588, ../scss/styles.scss */
+  .lgPokeSquare p {
+    font-size: 3.5rem;
+  }
+
+  /* line 591, ../scss/styles.scss */
+  .lgPokeSquare img {
+    padding: 0;
+    height: 95%;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1601px) {
+  /* line 599, ../scss/styles.scss */
+  .selectionBar {
+    font-size: 2em;
+  }
+
+  /* line 602, ../scss/styles.scss */
+  .cpCalc {
+    font-size: 2.2em;
+  }
+
+  /* line 605, ../scss/styles.scss */
+  .statsInfo {
+    font-size: 1.7em;
+  }
+}

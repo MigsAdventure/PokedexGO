@@ -1,0 +1,47 @@
+// Fixes overlapping issues
+// Makes the rendered box elements padding, borders, etc.
+// fit into the width
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: pokemonFont;
+  src: 	url('../scss/fonts/pokemonsolid.woff') format('woff'),
+  		url("../scss/fonts/pokemonsolid.ttf") format('truetype'),
+  		url('../scss/fonts/pokemonsolid.svg') format('svg'),
+      url('../scss/fonts/pokemonsolid.eot') format('eot');
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size:70%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 1440px;
+  margin: auto;
+  text-align: center;
+
+  // We are defining the text color with a mixin
+  @include default-text-color($black);
+}
+
+#wrapper {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}

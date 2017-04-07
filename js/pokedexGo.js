@@ -1,5 +1,5 @@
-$(document).ready(function(e) {
 
+$(document).ready(function(e) {
   var checkText = false;
   var pokemonNumbers = [];
 
@@ -15,7 +15,7 @@ $(document).ready(function(e) {
 
   var pokemonSquares = [];
   for (var i = 0; i < pokemonNames.length; i++) {
-    pokemonSquares.push($("<div>").addClass("pokeSquare").attr("id", pokemonNames[i]).append($("<img>").attr("id", [i + 1] + ".wav").attr("src", "assets/" + pokemonNumbers[i] + ".png").addClass("pokeImage")).append($("<p>").addClass("bold").text(pokemonNames[i])));
+    pokemonSquares.push($("<div>").addClass("pokeSquare").attr("id", pokemonNames[i]).append($("<img>").attr("id", [i + 1] + ".wav").attr("src", "assets/images/" + pokemonNumbers[i] + ".png").addClass("pokeImage")).append($("<p>").addClass("bold").text(pokemonNames[i])));
   }
 
     $(".pokemonContainer").append(pokemonSquares);
@@ -32,7 +32,7 @@ $(document).ready(function(e) {
     $(".pokemonBar").remove();
   }
 
-  //audio tag is muted by default 
+  //audio tag is muted by default
   document.getElementById('pokeAudio').muted = true;
 
   // soundButton changes background image and audio tag mute to true and false when clicked
@@ -40,13 +40,13 @@ $(document).ready(function(e) {
   $("#soundButton").on("click", function() {
     if (soundButton === false) {
       document.getElementById('pokeAudio').muted = false;
-      $("#soundButton").css("background-image", "url('assets/musicOnBtn.png')");
+      $("#soundButton").css("background-image", "url('assets/images/musicOnBtn.png')");
       $(".pokeAudioTag").attr("src", "assets/sounds/pika1.wav");
       $(".pokeAudioTag")[0].play();
       soundButton = true;
     } else {
       document.getElementById('pokeAudio').muted = true;
-      $("#soundButton").css("background-image", "url('assets/musicOffBtn.png')");
+      $("#soundButton").css("background-image", "url('assets/images/musicOffBtn.png')");
       soundButton = false;
     }
   });
@@ -152,7 +152,7 @@ $(document).ready(function(e) {
     addStatsData();
   });
 
-  //when the cpCalcBar is clicked, the pkmnInfo container scrolls to evolutionBar on top. 
+  //when the cpCalcBar is clicked, the pkmnInfo container scrolls to evolutionBar on top.
   //It hides the content of CP if visible and shows if not visible
   $(".cpCalcBar").on("click", function(e) {
     e.preventDefault();
@@ -292,7 +292,7 @@ $(document).ready(function(e) {
     }
     $(".statsInfo").append(statsArray);
   }
- 
+
   function evolveFunction() {
     $(".evolContainer").empty();
     var currentPokemon = $(".pkmnInfo").data("currentName");
